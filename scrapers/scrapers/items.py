@@ -9,3 +9,5 @@ import scrapy
 class SitemapItem(scrapy.Item):
     loc = scrapy.Field()
     priority = scrapy.Field()
+    lastmod=scrapy.Field()
+    changefreq=scrapy.Field()
